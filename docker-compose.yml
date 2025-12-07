@@ -1,8 +1,6 @@
-version: '3.8'
-
 services:
-  ubuntu-desktop:
-    build: .
+  stardew:
+    image: ghcr.io/snachodog/stardew-server-linux:latest    
     container_name: stardew-server
     privileged: true
     ports:
