@@ -1,0 +1,66 @@
+-------------------------------
+CREDENTIALS AND SECRETS
+-------------------------------
+
+.env
+.env.*
+*.secret
+*.password
+*.key
+
+-------------------------------
+DOCKER VOLUMES / RUNTIME DATA
+-------------------------------
+Game saves, config data, logs, installed files, SteamCMD data
+
+stardew_data/
+stardew_data/*
+Mods/
+Mods/*
+
+If you ever switch volume paths, include the new folders:
+
+data/
+data/*
+steam/
+steam/*
+
+-------------------------------
+EDITOR / IDE / OS CLUTTER
+-------------------------------
+macOS
+
+.DS_Store
+
+Windows
+
+Thumbs.db
+desktop.ini
+
+Linux
+
+*~
+
+VSCode
+
+.vscode/
+
+JetBrains
+
+.idea/
+
+-------------------------------
+LOG FILES
+-------------------------------
+
+.log
+logs/
+logs/
+
+-------------------------------
+DOCKER ARTIFACTS
+-------------------------------
+If you ever output build artifacts locally
+
+docker-output/
+docker-output/*
